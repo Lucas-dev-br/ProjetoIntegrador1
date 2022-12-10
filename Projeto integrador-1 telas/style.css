@@ -1,0 +1,255 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ body {
+    background-color: #E1E1E1;
+}
+
+.container{
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+
+.content{
+    display: flex;
+    width: 600px;
+    height: 320px;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center; 
+}
+
+
+
+.first-collumn{
+    background-color: #95C62C;
+    display: flex;
+    height: 100%;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 0 0 20px;
+}
+
+
+
+.secon-collumn{
+    justify-self: center;
+    align-items: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-first-collumn{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-first-collumn img{
+    width: 160px;
+    background-size: cover;
+}
+
+.title{
+    color: #262F3D;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: Calibri, sans-serif;
+    font-weight: bold;
+}
+
+.title2{
+    display: flex;
+    justify-content: center;
+    font-family: Calibri, sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.title3{
+    display: flex;
+    justify-content: center;
+    font-family: Calibri, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+
+.input-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    height: 40px;
+    max-width: 100%;
+    border-color: black;
+}
+
+.input-form input{
+    padding: 8px 25px;
+    border-color: black;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.list-social{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.list-social li {
+    list-style: none;
+}
+
+.list-social img:hover{
+    transition: 3s;
+    
+}
+
+.form-check {
+    display: flex;
+    flex-direction: row;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.btn-form{
+    width: 100px;
+    height: 25px;
+    margin-top: 20px;
+    background-color: #95C62C;
+    color: white;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: #95C62C;
+    cursor: pointer;    
+    /* padding: 10px 0px; */
+}
+
+.btn-form:hover{
+    color: #95C62C;
+    background-color: white;
+    border-color: #95C62C;
+}
+
+#user{
+    background-image: url('./assets/Interface User Single by Streamlinehq.png');
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+
+#pass{
+    background-image: url('./assets/Interface\ Lock\ Circle\ by\ Streamlinehq.png');
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+
+.lose{
+    font-size: 10px;
+    margin-top: 40px;
+    margin-right: 10px;
+    font-family: Calibri, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #262F3D;
+}
+
+.form-check{
+    align-items: flex-end;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+   /* ESQUECI MINHA SENHA */
+
+
+.title-senha{
+    color: white;
+    font-weight: 350;
+    font-size: 25px;  
+    font-family: Calibri, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.img-senha img{
+    width: 20px;
+    background-size: cover;
+}
+
+.title2-senha{
+    font-family: Calibri, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.p-senha{
+    margin-left: 30px;
+    font-size: 14px;
+    font-family: Calibri, sans-serif;
+    margin-bottom: 10px;
+}
+
+.form-senha{
+    display: flex;
+    flex-direction: column;
+}
+
+#email-senha{
+    margin-bottom: 10px;
+    padding: 8px 25px;
+    border-color: black;
+    border-radius: 8px;
+    border-width: 1px;
+    background-image: url('./assets/Mail\ Send\ Envelope\ by\ Streamlinehq.png');
+    background-repeat: no-repeat;
+    background-position: 5px;
+    background-size: 15px;
+}
+
+.btn-form-senha{
+    width: 100%;
+    height: 25px;
+    background-color: #95C62C;
+    color: white;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: #95C62C;
+    cursor: pointer;    
+    /* padding: 10px 0px; */
+}
+
+.btn-form-senha:hover{
+    color: #95C62C;
+    background-color: white;
+    border-color: #95C62C;
+}
+
+/* Dashboard */
+
